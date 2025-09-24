@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <script src="Home.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <!-- Logo on the left -->
+        <a class="navbar-brand" href="#Home">
+          <img src="../Images/logo.png" alt="Logo" />
+        </a>
+
+        <!-- Navbar Toggle for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Centered Navbar Items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#grooming">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Login Button on the Right -->
+        <a
+          class="nav-link login-btn"
+          href="loginpage.html"
+          data-toggle="modal"
+          data-target="#loginmodal"
+          >Login</a
+        >
+      </div>
+    </nav>
+    <div class="container-fluid animate-on-scroll" id="Home">
+      <div class="row">
+        <img src="./images/sisser.png" alt="" class="sisser" />
+        <div
+          class="col d-flex flex-column justify-content-center align-items-start ml-5 p-5 text"
+          style="height: 100vh"
+        >
+          <h1 class="text-center">
+            <img src="./images/come.png" alt="" /> <br />
+            GROOMAX
+          </h1>
+          <p>
+            Premium pet grooming services tailored to keep your furry friends happy, healthy, and stylish
+          </p>
+          <img class="trimmer" src="./images/trimmer.png" alt="" />
+
+          <div
+            class="btn text-light"
+            data-toggle="modal"
+            data-target="#bookNowModal"
+          >
+            Groom Now
+          </div>
+        </div>
+        <div class="col img" style="height: 50vh">
+          <img src="./images/dog.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- <----------Grooming Section------------>
+
+    <div class="container con2 animate-on-scroll" id="grooming">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">Dog Grooming</h1>
+          <p class="text-center">
+            Expert care for your pets, ensuring a clean, healthy, <br/>
+            and happy experience with gentle grooming techniques
+          </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col cards">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="./images/dog-7565682_1280.jpg" alt="" />
+            </div>
+            <div class="card-body">
+              <h5 class="text-center">Hair Style</h5>
+              <p class="card-text text-center">
+                Customized grooming and stylish trims to give your pet a fresh, adorable look
+              </p>
+              <div class="btn btn-warning text-center">View more</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img src="./images/combing.jpeg" alt="" />
+            </div>
+            <div class="card-body">
+              <h5 class="text-center">Hair Style</h5>
+              <p class="card-text text-center">
+                Customized grooming and stylish trims to give your pet a fresh, adorable look
+              </p>
+              <div class="btn btn-warning text-center">View more</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top">
+              <img src="./Images/close-up-portrait-yorkshire-dog.jpg" alt="" />
+            </div>
+            <div class="card-body">
+              <h5 class="text-center">Hair Style</h5>
+              <p class="card-text text-center">
+                Customized grooming and stylish trims to give your pet a fresh, adorable look
+              </p>
+              <div class="btn btn-warning text-center">View more</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------services------------>
+    <div class="container con3 animate-on-scroll" id="services">
+      <div
+        class="our-team d-flex justify-content-center align-items-center flex-column"
+      >
+        <div class="title">
+          <h1 class="text-center">Our services</h1>
+
+          <p class="text-center">
+            Providing top-quality pet grooming services, from luxurious baths to stylish <br/>
+            haircuts, ensuring your furry friends look and feel their best
+          </p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="img">
+              <img src="./Images/groomax-work1.jpg" alt="work-1" />
+              <div class="overlay">
+                <h3>FULL GROOMING</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="img">
+              <img src="./Images/style2.jpg" alt="work-1" />
+              <div class="overlay">
+                <h3>PAWDICURE</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="img">
+              <img src="./Images/style1.jpg" alt="work-1" />
+              <div class="overlay">
+                <h3>BATH & BRUSH</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------counting-------------->
+    <div class="container-fluid con4 animate-on-scroll">
+      <div
+        class="container con4 d-flex justify-content-center align-items-center"
+      >
+        <div class="card m-2">
+          <div class="card-body">
+            <h1 class="card-title text-center" data-target="420">1</h1>
+
+            <p class="card-text text-center">Pets Hosted</p>
+          </div>
+        </div>
+
+        <div class="card m-2">
+          <div class="card-body">
+            <h1 class="card-title text-center" data-target="25">1</h1>
+
+            <p class="card-text text-center">Services</p>
+          </div>
+        </div>
+
+        <div class="card m-2">
+          <div class="card-body">
+            <h1 class="card-title text-center" data-target="350">1</h1>
+
+            <p class="card-text text-center">Happy Clients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./Count.js"></script>
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+
+    <div class="container con5 animate-on-scroll" id="Service">
+      <div
+        class="our-team d-flex flex-column align-items-center justify-content-center"
+      >
+        <div class="title">
+          <h1 class="text-center">Our Team</h1>
+          <div class="sub-title-sec m-1">
+            <p class="text-center">
+              Meet our passionate pet care experts, dedicated to providing the best grooming experience 
+              for your furry companions. <br/>
+              Our skilled groomers ensure comfort, safety, and style with every service.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <div class="img">
+              <img src="./images/img-4.jpg" alt="member-1" />
+              <div class="overlay">
+                <h3>JAMES ADDAMS</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="img">
+              <img src="./images/img-1.jpg" alt="member-1" />
+              <div class="overlay">
+                <h3>MARTIN LOPEZ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="img">
+              <img src="./Images/img-2.jpg" alt="member-1" />
+              <div class="overlay">
+                <h3>MARIA SHARAP</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="img">
+              <img src="./Images/img-3.jpg" alt="member-1" />
+              <div class="overlay">
+                <h3>MARIA SMITH</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------contact section------->
+    <div
+      class="container-fluid animate-on-scroll"
+      style="
+        background-image: url('./images/Paw-Pattern.png');
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        background-color: rgba(255, 191, 0, 0.5);
+      "
+      id="contact"
+    >
+      <div class="maincontainer">
+        <div class="firstpart">
+          <div class="paws">
+            <div class="icondiv">
+              <img src="./Images/logo.png" alt="" />
+            </div>
+
+            <div class="number">
+              +1 800 123 456 789
+              <p id="que">Got Questions?Call us 24/7</p>
+            </div>
+          </div>
+
+          <div class="address">92 Bowery St., New York, NY 10013</div>
+          <div class="icons">
+            <div><i class="fa-brands fa-twitter"></i></div>
+            <div><i class="fa-brands fa-facebook"></i></div>
+            <div><i class="fa-brands fa-linkedin"></i></div>
+            <div><i class="fa-brands fa-instagram"></i></div>
+          </div>
+        </div>
+
+        <div class="secondpart">
+          <h3>Help</h3>
+          <table>
+            <tr>
+              <td>Pet Services</td>
+              <td>Company</td>
+            </tr>
+            <tr>
+              <td>Careers</td>
+              <td>Our Services</td>
+            </tr>
+            <tr>
+              <td>Help Center</td>
+              <td>Sitemap</td>
+            </tr>
+            <tr>
+              <td>Treat Program</td>
+              <td>Careers</td>
+            </tr>
+            <tr>
+              <td>Charities</td>
+              <td>Contacts</td>
+            </tr>
+            <tr>
+              <td>Privacy</td>
+              <td>FAQ</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="thirdpart">
+          <h3 style="grid-column: span 3">Gallery</h3>
+          <div
+            class="gallery-img"
+            style="background-image: url('./images/card-1.jpg')"
+          ></div>
+          <div
+            class="gallery-img"
+            style="background-image: url('./images/card2.jpg')"
+          ></div>
+          <div
+            class="gallery-img"
+            style="background-image: url('./images/card3.webp')"
+          ></div>
+          <div
+            class="gallery-img"
+            style="background-image: url('./images/card4.jpg')"
+          ></div>
+          <div
+            class="gallery-img"
+            style="background-image: url('./images/card5.jpg')"
+          ></div>
+          <div
+            class="gallery-img"
+            style="background-image: url('./images/card6.webp')"
+          ></div>
+        </div>
+
+        <div class="fourthpart">
+          <h3>Working Hours</h3>
+          <div class="working-hours">
+            <div><span class="day">Mon - Fri:</span> 7am - 6pm</div>
+            <div><span class="day">Saturday:</span> 9am - 4pm</div>
+            <div><span class="day">Sunday:</span> Closed</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <a href="#">Terms of use</a>
+        <a href="#">Privacy</a>
+        <a href="#">Environmental Policy</a>
+        <span
+          >Copyright © 2024 Pawscare by <a href="#">WebGeniusLab</a>. All Rights
+          Reserved.</span
+        >
+      </div>
+    </div>
+    <!---------pop up modal------------->
+    <div
+      class="modal fade"
+      id="bookNowModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="bookNowModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content glass-effect">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bookNowModalLabel">
+              Book a Grooming Slot
+            </h5>
+            <button
+              type="button"
+              class="close text-white"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="text-center mb-4">
+                <img
+                  src="./Images/logo.png"
+                  width="100"
+                  height="auto"
+                  alt="Groomax Logo"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" class="form-control" id="date" required />
+              </div>
+              <div class="form-group">
+                <label for="time">Time Slot</label>
+                <div id="time" class="d-flex flex-wrap">
+                  <label class="time-btn">
+                    <input
+                      type="radio"
+                      name="time"
+                      value="10:00-11:00"
+                      required
+                    />
+                    10:00-11:00
+                  </label>
+                  <label class="time-btn">
+                    <input
+                      type="radio"
+                      name="time"
+                      value="11:00-12:00"
+                      required
+                    />
+                    11:00-12:00
+                  </label>
+                  <label class="time-btn">
+                    <input
+                      type="radio"
+                      name="time"
+                      value="12:00-13:00"
+                      required
+                    />
+                    12:00-13:00
+                  </label>
+                  <label class="time-btn">
+                    <input
+                      type="radio"
+                      name="time"
+                      value="13:00-14:00"
+                      required
+                    />
+                    13:00-14:00
+                  </label>
+                  <label class="time-btn">
+                    <input
+                      type="radio"
+                      name="time"
+                      value="14:00-15:00"
+                      required
+                    />
+                    14:00-15:00
+                  </label>
+                  <label class="time-btn">
+                    <input
+                      type="radio"
+                      name="time"
+                      value="16:00-17:00"
+                      required
+                    />
+                    16:00-17:00
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------login modal--------------->
+    <div
+      class="modal fade"
+      id="loginmodal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="bookNowModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content glass-effect">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bookNowModalLabel">
+              Welcome to GrooMax
+            </h5>
+            <button
+              type="button"
+              class="close text-white"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="container">
+                <div class="biscuit-icon"></div>
+                <h2>Welcome To Groomax</h2>
+
+                <div class="input-group">
+                  <input type="text" id="username" required />
+                  <label>Username</label>
+                </div>
+
+                <div class="input-group">
+                  <input type="password" id="password" required />
+                  <label>Password</label>
+                </div>
+
+                <div class="input-group">
+                  <select required id="userType">
+                    <option value="" disabled selected>Login As</option>
+                    <option value="user">User</option>
+                    <option value="Admin">Admin</option>
+                  </select>
+                </div>
+
+                <button
+                  type="button"
+                  id="loginBtn"
+                  class="btn submit-btn"
+                  onclick="handleLogin()"
+                >
+                  Login
+                </button>
+
+                <div class="links">
+                  <a href="#">Forgot Password?</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      function handleLogin() {
+        const userType = document.getElementById("userType").value;
+        if (userType === "Admin") {
+          window.location.href = "admin-module.html";
+        } else {
+          alert("Invalid login type");
+        }
+      }
+    </script>
+  </body>
+</html>
